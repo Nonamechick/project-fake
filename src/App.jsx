@@ -1,5 +1,6 @@
 import React from 'react'
-import HiddenSearchBar from './components/HiddenSearchBar'
+import Testimonials from './components/Testimonials'
+//import HiddenSearchBar from './components/HiddenSearchBar'
 // import ToggleBackgroundColor from './components/ToggleBackgroundColor'
 //import Calculator from './components/Calculator'
 //import Meals from './components/Meals'
@@ -13,8 +14,9 @@ const App = () => {
       <Todo />
       <Meals /> 
       <Calculator /> 
-      <ToggleBackgroundColor /> */}
-      <HiddenSearchBar />
+      <ToggleBackgroundColor />
+      <HiddenSearchBar />  */}
+      <Testimonials />
     </div>
   )
 }
