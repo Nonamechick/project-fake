@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from './components/Form'
+//import TicTacToe from './components/TicTacToe'
 //import { accordionData } from './utils/content.js';
 //import Accordion from './components/Accordion';
 //import Testimonials from './components/Testimonials'
@@ -24,9 +25,11 @@ const App = () => {
         {accordionData.map(({title, content}) => (
           <Accordion title={title} content={content}/>
         ))}
-      </div>*/}
+      </div>
+      */}
       <Form />
     </div>
+    
   )
 }
 
